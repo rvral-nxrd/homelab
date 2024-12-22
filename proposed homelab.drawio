@@ -28,7 +28,7 @@
         <mxCell id="qXsICdhWXg5G4tMMJYqc-23" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/wireless/Access_Point_Indoor.svg;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="600" y="212.7" width="36.6" height="54.6" as="geometry" />
         </mxCell>
-        <mxCell id="qXsICdhWXg5G4tMMJYqc-24" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="qXsICdhWXg5G4tMMJYqc-24" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;fontFamily=Comic Sans MS;imageBackground=none;" vertex="1" parent="1">
           <mxGeometry y="41" width="174.6" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qXsICdhWXg5G4tMMJYqc-27" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/switch/Switch_24_port_L3_Alternative.svg;fontFamily=Comic Sans MS;" vertex="1" parent="1">
@@ -52,22 +52,22 @@
         <mxCell id="qXsICdhWXg5G4tMMJYqc-37" value="Trunk&lt;br&gt;&lt;div&gt;Switch&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="420" y="180" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qXsICdhWXg5G4tMMJYqc-40" value="Vlan 1000 Mgmt" style="swimlane;startSize=23;fillColor=#b0e3e6;strokeColor=#0e8088;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;rounded=0;glass=1;" vertex="1" parent="1">
+        <mxCell id="qXsICdhWXg5G4tMMJYqc-40" value="Vlan 1000 Mgmt" style="swimlane;startSize=23;fillColor=#b0e3e6;strokeColor=#0e8088;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;rounded=0;glass=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="300" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qXsICdhWXg5G4tMMJYqc-41" value="Vlan 1010 Trusted" style="swimlane;fillColor=#d0cee2;strokeColor=#56517e;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;rounded=0;glass=1;" vertex="1" parent="1">
+        <mxCell id="qXsICdhWXg5G4tMMJYqc-41" value="Vlan 1010 Trusted" style="swimlane;fillColor=#d0cee2;strokeColor=#56517e;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;rounded=0;glass=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="400" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qXsICdhWXg5G4tMMJYqc-97" value="10.10.0.0/16" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="qXsICdhWXg5G4tMMJYqc-41">
           <mxGeometry x="45" y="38" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qXsICdhWXg5G4tMMJYqc-42" value="Vlan 2000 Guest" style="swimlane;startSize=23;fillColor=#fad9d5;strokeColor=#ae4132;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;rounded=0;glass=1;" vertex="1" parent="1">
+        <mxCell id="qXsICdhWXg5G4tMMJYqc-42" value="Vlan 2000 Guest" style="swimlane;startSize=23;fillColor=#fad9d5;strokeColor=#ae4132;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;rounded=0;glass=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="300" width="108.29999999999995" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qXsICdhWXg5G4tMMJYqc-100" value="192.168.200.0/24" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="qXsICdhWXg5G4tMMJYqc-42">
           <mxGeometry x="-5.850000000000046" y="38" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qXsICdhWXg5G4tMMJYqc-43" value="Vlan 2010 Untrusted" style="swimlane;fillColor=#fad7ac;strokeColor=#b46504;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;rounded=0;glass=1;" vertex="1" parent="1">
+        <mxCell id="qXsICdhWXg5G4tMMJYqc-43" value="Vlan 2010 Untrusted" style="swimlane;fillColor=#fad7ac;strokeColor=#b46504;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;rounded=0;glass=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="300" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qXsICdhWXg5G4tMMJYqc-63" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=link;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" edge="1" parent="1" source="qXsICdhWXg5G4tMMJYqc-45" target="qXsICdhWXg5G4tMMJYqc-40">
@@ -87,7 +87,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qXsICdhWXg5G4tMMJYqc-45" value="Datacentre" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#b1ddf0;strokeColor=#10739e;fontFamily=Comic Sans MS;rounded=0;sketch=1;curveFitting=1;jiggle=2;glass=1;" vertex="1" parent="1">
+        <mxCell id="qXsICdhWXg5G4tMMJYqc-45" value="Datacentre" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#b1ddf0;strokeColor=#10739e;fontFamily=Comic Sans MS;rounded=0;sketch=1;curveFitting=1;jiggle=2;glass=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="542.5" width="340" height="230" as="geometry">
             <mxRectangle x="30" y="620" width="40" height="90" as="alternateBounds" />
           </mxGeometry>
@@ -140,7 +140,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qXsICdhWXg5G4tMMJYqc-72" value="LAN" style="swimlane;fillColor=#d0cee2;strokeColor=#56517e;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;rounded=0;glass=1;" vertex="1" parent="1">
+        <mxCell id="qXsICdhWXg5G4tMMJYqc-72" value="LAN" style="swimlane;fillColor=#d0cee2;strokeColor=#56517e;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;rounded=0;glass=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="420" width="200" height="170" as="geometry" />
         </mxCell>
         <mxCell id="qXsICdhWXg5G4tMMJYqc-73" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.tv;fontFamily=Comic Sans MS;" vertex="1" parent="qXsICdhWXg5G4tMMJYqc-72">
@@ -164,7 +164,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qXsICdhWXg5G4tMMJYqc-87" value="Untrusted" style="swimlane;fillColor=#fad7ac;strokeColor=#b46504;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;rounded=0;glass=1;" vertex="1" parent="1">
+        <mxCell id="qXsICdhWXg5G4tMMJYqc-87" value="Untrusted" style="swimlane;fillColor=#fad7ac;strokeColor=#b46504;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;rounded=0;glass=0;" vertex="1" parent="1">
           <mxGeometry x="588.3" y="480" width="180" height="97.5" as="geometry" />
         </mxCell>
         <mxCell id="qXsICdhWXg5G4tMMJYqc-90" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.flag;fontFamily=Comic Sans MS;" vertex="1" parent="qXsICdhWXg5G4tMMJYqc-87">
